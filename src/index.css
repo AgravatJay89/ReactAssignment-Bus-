@@ -1,0 +1,291 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(26,22,96);
+  background: linear-gradient(90deg, rgba(26,22,96,1) 0%, rgba(199,219,209,1) 71%, rgba(0,212,255,1) 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.header{
+  background-color: rgb(0, 0, 0);
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#sapnl{
+  font-size: 30px;
+  font-weight: 500;
+}
+#sogo{
+  font-size: 30px;
+  font-weight: 500;
+}
+.logo{
+  width: 100px;
+  height: 70px;
+  /* background-color: red; */
+  color: #ffffff;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-link{
+  color:white;
+  font-size: 18px;
+  font-weight: 500;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+.homecontaint{
+  width: 100%;
+  height: 70vh;
+  border-radius: 20px;
+  background-color:rgb(12, 12, 51);
+  color: white;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.homecontaint button{
+  padding: 10px;
+  border: 2px solid white;
+  width: 150px;
+  margin-top: 20px;
+  border-radius: 20px;
+} 
+.homecontaint button:hover {
+  background-color: #ffffff;
+  color: black;
+}
+/* -------------------- */
+.card-container{
+  display: flex;
+  width: 300px;
+  margin: 20px;
+}
+.card{
+  position: relative;
+  display: flex;
+  padding: 20px;
+  box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+  transition: 0.5s ease-in-out;
+  background-color: rgb(0, 0, 0);
+}
+.card:hover{
+  transform: translateY(-10px);
+}
+.card img{
+  height: 250px;
+  width: 280px;
+}
+.info h4{
+  text-align: center;
+  margin: 20px;
+  color: white;
+}
+/* .icons{
+  margin-left: 175px;
+} */
+.icons i{
+  margin-left: 8px;
+}
+/* -------------------- */
+.outlet{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  padding: 20px;
+  margin: 20px;
+}
+
+.back-button{
+  width: 100%;
+  border-radius: 50%;
+  /* background-color: #ffffff; */
+  display: flex;
+  justify-content: flex-end;
+}
+#abtbtn{
+  margin-top: 20px;
+  width: 45px;
+  height: auto;
+  padding: 10px;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: black
+}
+/* -------------------- */
+.footer{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+/* -------------------- */
+.mainContainer{
+  height: auto;
+  width: auto;
+  background-color: black;
+  border-radius: 10px;
+}
+.mainContainer h2{
+  background-color: transparent;
+  color: white;
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.mainContainer h2:hover {
+  background-color: #ffffff;
+  color: black;
+}
+.mainContainer i{
+  margin-left: 20px;
+}
+.imagede{
+  height: 250px;
+  width: 300px;
+  border-radius: 20px;
+}
+.delete-button{
+  background-color:transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  align-content: center;
+}
+.delete-button:hover{
+  background-color: rgb(240, 85, 85);
+  color: black;
+}
+.edit-button{
+  background-color:transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  align-content: center;
+}
+.edit-button:hover{
+  background-color: rgb(90, 224, 106);
+  color: black;
+}
+/* ------------------------- */
+input{
+  color: black;
+  border: 1px solid black;
+}
+.form-container{
+  background-color: rgb(0, 0, 0);
+  width: 50%;
+  margin: 20px;
+  height: auto;
+  padding: 50px;
+  border: 1px solid rgb(56, 54, 54); 
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 29px -3px rgba(0,0,0,0.66);
+  -moz-box-shadow: 0px 10px 29px -3px rgba(0,0,0,0.66);
+  box-shadow: 0px 10px 29px -3px rgba(0,0,0,0.66);
+}
+.add-button{
+  background-color:transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px;
+  align-content: center;
+}
+.add-button:hover{
+  background-color: rgb(90, 224, 106);
+  color: black;
+}
+
+.btn{
+  background-color: rgb(73, 114, 228);
+  color: aliceblue;
+  margin-top: 20px;
+}
+.aboutcontainer{
+  width: 100%;
+  /* border: 1px solid rgb(255, 255, 255); */
+  border-radius: 10px;
+  background-color: black;
+}
+.aboutcontainer-1{
+  background-color: rgb(35, 33, 33);
+  width: 100%;
+  /* border: 1px solid rgb(255, 255, 255); */
+  border-radius: 10px;
+}
+.aboutfont{
+  color: #ffffff;
+}
+.contactfrom{
+  justify-content: center;
+  width: auto;
+  height: auto;
+  background-color:rgb(0, 0, 0);
+  padding: 40px;
+  /* border: 1px solid rgb(255, 255, 255); */
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 29px -8px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 0px 29px -8px rgba(0,0,0,1);
+  box-shadow: 0px 0px 29px -8px rgba(0,0,0,1);
+}
+.conhead{
+  justify-content: center;
+  text-align: center;
+}
+.conhead button{
+  justify-content: center;
+}
+.formcon{
+  width: 350px;
+}
+.contactfrom h6{
+  text-align: center;
+  margin-top: 5px;
+  color: white;
+}
+.submit-button-container{
+  text-align: center;
+}
+.submit-button{
+  padding: 10px;
+  width: 150px;
+  margin-top: 30px;
+}
+.content-contant{
+  text-align: center;
+}
+.content-contant a{
+  color: blue;
+}
+.DetailPageImg{
+  position: relative;
+
+}
+.DetailPageImg img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
